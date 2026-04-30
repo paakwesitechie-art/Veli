@@ -12,7 +12,7 @@ This is a simple and modern contact form website built with HTML and CSS.
 - CSS
 
 ## 🌍 Live Demo
-https://paakwesitechie-art.github.io/veli/
+https://paakwesitechie-art.github.io/Veli/
 
 ## 📩 How It Works
 Users can fill out the form and send messages, which are delivered directly to my email using Formspree.
