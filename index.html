@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-</>
 <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Me</title>
@@ -11,7 +10,7 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      front-family: Arial, sans-serif;
+      font-family: Arial, sans-serif;
     }
     
     body {
@@ -28,7 +27,7 @@
       border-radius: 12px;
       width: 100%;
       max-width: 400px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0,2);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
     }
     
     h2 {
@@ -51,7 +50,7 @@
     
     button {
       width: 100%;
-      padding 12px
+      padding: 12px
       background: black;
       color: white;
       border: none;
@@ -74,13 +73,13 @@
   <body>
     <div class="container">
       <h2>Contact Me</h2>
-      <form action="https://formspree.io/f/xqenspvd" nethod="POST">
+      <form action="https://formspree.io/f/xqenspvd" method="POST">
         
         <input type="hidden" name="_subject" value="New message from your website">
         
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" rows"4" placeholder="Your Message" required>
+        <textarea name="message" rows="4" placeholder="Your Message" required>
         </textarea>
         
         <button type="submit">Send Message</button>
@@ -92,8 +91,8 @@
       const successMsg = document.getElementById("successMsg");
       
       form.addEventListener("submit", function() {
-        setTimeout(()= {
-          successMsg.style.displays = "block";
+        setTimeout(()=> {
+          successMsg.style.display = "block";
         }, 500);
       });
     </script>
